@@ -1,0 +1,158 @@
+:root {
+    --link-color: #212121;
+    --visited-link-color: #2196F3;
+    --paragraph-color: #757575;
+    --background-color: #2F303A;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+body ul {
+    list-style-type: none
+}
+body h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+/* header styles */
+.global-header a {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.header-logo {
+    font-size: 26px;
+    font-weight: 700px;
+    letter-spacing: 3%;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-logo span {
+    color: var(--visited-link-color);
+}
+
+.global-header .main-navigation a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--link-color);
+    letter-spacing: 2%;
+}
+
+.global-header .social-media-links a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    letter-spacing: 2%;
+}
+
+.global-header .main-navigation a:link
+.global-header .main-navigation a:visited {
+    color: var(--link-color);
+}
+.global-header .main-navigation a:hover {
+    color: var(--visited-link-color)
+}
+
+.global-header .social-media-links a:link
+.global-header .social-media-links a:visited {
+    color: #757575;
+}
+.global-header .social-media-links a:hover
+ {
+    color: var(--visited-link-color);
+ }
+/* main styles */
+.hero-section-title {
+    background-color: var(--background-color);
+}
+
+
+.hero-section-title h1 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 6%;
+    line-height: 60px;
+}
+
+.hero-button {
+    background-color: #2196F3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* what we do styles */
+
+.hero-section h3 {
+    color: var(--link-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hero-section-list p {
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* our team styles */
+
+.our-team-section h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.our-team-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    text-align: center;
+}
+
+/* footer styles */
+
+.global-footer {
+    background-color: var(--background-color);
+    color: #fff;
+    width: 1600px;
+    height: 251px;
+}
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;  
+}
+
+.footer-logo span {
+    color: var(--visited-link-color)
+}
+.footer-address {
+    font-size: ; 14px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.footer-address a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
