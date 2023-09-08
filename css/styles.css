@@ -84,7 +84,6 @@ body h2 {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    line-height: 187%;
     text-align: center;
     cursor: pointer;
 }
@@ -168,7 +167,6 @@ body h2 {
 .portofolio-buttons {
     font-size: 16px;
     font-weight: 500;
-    line-height: 162%;
 }
 
 .portofolio-buttons button:link
