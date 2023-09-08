@@ -76,7 +76,6 @@ body h2 {
     font-size: 44px;
     font-weight: 700;
     text-align: center;
-    line-height: 375%;
 }
 
 .hero-button {
@@ -84,7 +83,7 @@ body h2 {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    line-height: 187,5%;
+    line-height: 187;
     text-align: center;
     cursor: pointer;
 }
@@ -168,7 +167,7 @@ body h2 {
 .portofolio-buttons {
     font-size: 16px;
     font-weight: 500;
-    line-height: 162,5%;
+    line-height: 162;
 }
 
 .portofolio-buttons button:link
