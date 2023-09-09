@@ -82,6 +82,7 @@ body h2 {
 .hero-button {
     background-color: #2196F3;
     color: #fff;
+    font-style: inherit;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
@@ -89,7 +90,9 @@ body h2 {
 }
 
 .hero-button:hover {
-    color: var(--background-color);
+    color: #fff;
+    background-color: #188CE8;
+    font-style: inherit;
 }
 
 /* what we do styles */
@@ -167,6 +170,7 @@ body h2 {
 .portofolio-buttons {
     font-size: 16px;
     font-weight: 500;
+    font-family: inherit;
 }
 
 .portofolio-buttons button:link
