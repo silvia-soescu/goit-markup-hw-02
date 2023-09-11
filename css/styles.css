@@ -40,10 +40,14 @@ body h2 {
 .main-navigation a {
     font-size: 14px;
     font-weight: 500;
-    color: var(--main-color);
+    color: var(--main-color);   
 }
 
-.social-media-links a {
+#current {
+    color: var(--visited-link-color);
+}
+
+.contact-links a {
     font-size: 14px;
     font-weight: 500;
     color: #757575;
@@ -62,16 +66,16 @@ body h2 {
     color: var(--visited-link-color);
 }
 
-.social-media-links a:link,
-.social-media-links a:visited {
+.contact-links a:link,
+.contact-links a:visited {
     color: #757575;
 }
-.social-media-links a:hover
+.contact-links a:hover
  {
     color: var(--visited-link-color);
  }
 
- .social-media-links a:active {
+ .contact-links a:active {
     color: var(--visited-link-color);
  }
 /* main styles */
@@ -193,7 +197,8 @@ body h2 {
     cursor: pointer;
 }
 
-.portofolio-buttons button:active {
+.portofolio-buttons button:active,
+.portofolio-buttons button:focus {
     color:#fff;
     background-color: var(--visited-link-color);
 }
